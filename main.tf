@@ -11,7 +11,7 @@ module "network" {
 }
 
 output "vpc" {
-  value = var.vpc
+  value = module.network
 }
 
 
