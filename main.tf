@@ -1,5 +1,5 @@
 module "network" {
-  source = "https://github.com/Dimpulsunayana/tf-module-vpc-subnets.git"
+  source = "github.com/Dimpulsunayana/tf-module-vpc-subnets"
   env = var.env
   default_vpc_id = var.default_vpc_id
 
