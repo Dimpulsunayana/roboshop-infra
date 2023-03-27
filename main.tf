@@ -10,4 +10,6 @@ module "network" {
   availability_zone = each.value.availability_zone
 }
 
-
+output "vpc" {
+  value = var.vpc
+}
