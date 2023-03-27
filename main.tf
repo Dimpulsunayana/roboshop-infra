@@ -13,3 +13,5 @@ module "network" {
 output "vpc" {
   value = var.vpc
 }
+
+
